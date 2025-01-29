@@ -32,4 +32,12 @@ The following functions are implemented in the `penguins_pipeline.R` file:
 4. **`save_session_info()`**
    - Captures session information using `sessionInfo()`.
    - Outputs it to `session_info.txt`.
+  
+
+
+
+Install dependencies manually:
+```R
+install.packages(c("palmerpenguins", "dplyr", "ggplot2", "testthat"))
+
 
