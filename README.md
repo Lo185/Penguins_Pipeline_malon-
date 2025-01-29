@@ -36,8 +36,19 @@ The following functions are implemented in the `penguins_pipeline.R` file:
 
 
 
+##Every software dependency is easily installed: 5 points;
+
 Install dependencies manually:
 ```R
 install.packages(c("palmerpenguins", "dplyr", "ggplot2", "testthat"))
+
+
+## Pipeline can be executed in one command: 5 points;
+
+To execute the entire pipeline, run the following command from the project directory:
+
+```bash
+Rscript penguins_pipeline.R
+
 
 
