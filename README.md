@@ -36,7 +36,7 @@ The following functions are implemented in the `penguins_pipeline.R` file:
 
 
 
-##Every software dependency is easily installed: 5 points;
+## Every software dependency is easily installed: 5 points;
 
 Install dependencies manually:
 ```R
