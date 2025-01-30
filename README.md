@@ -50,24 +50,24 @@ install.packages(c("palmerpenguins", "dplyr", "ggplot2", "testthat"))
 
 To execute the entire pipeline, run the following command from the project directory:
 
-Rscript penguins_pipeline.R
+"Rscript penguins_pipeline.R"
 
 ## Bonus points: pipeline is dockerized, or uses Nix, and/or uses Github Actions to run? 5 points;
 
-docker tag penguins_pipeline marielontsie/penguins_pipeline:latest
+"docker tag penguins_pipeline marielontsie/penguins_pipeline:latest"
 
-docker login
+"docker login"
 
 Then I used the one-time device confirmation code to access the browser: 
-https://login.docker.com/activate
+"https://login.docker.com/activate"
 
 Then type: 
-docker push marielontsie/penguins_pipeline:latest
+"docker push marielontsie/penguins_pipeline:latest"
 
 Anyone can now run it using:
-docker run --rm -v ${PWD}/data:/pipeline/data your_dockerhub_username/penguins_pipeline   OR
+"docker run --rm -v ${PWD}/data:/pipeline/data marielontsie/penguins_pipeline"   OR
 
-docker run --rm -v $(pwd)/data:/data marielontsie/penguins_pipeline
+"docker run --rm -v $(pwd)/data:/data marielontsie/penguins_pipeline"
 
 
 
