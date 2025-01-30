@@ -64,9 +64,9 @@ https://login.docker.com/activate
 Then type: 
 docker push marielontsie/penguins_pipeline:latest
 
-Anyone can run it using:
-docker run --rm -v ${PWD}/data:/pipeline/data your_dockerhub_username/penguins_pipeline
-OR
+Anyone can now run it using:
+docker run --rm -v ${PWD}/data:/pipeline/data your_dockerhub_username/penguins_pipeline   OR
+
 docker run --rm -v $(pwd)/data:/data marielontsie/penguins_pipeline
 
 
